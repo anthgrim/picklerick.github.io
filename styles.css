@@ -3,6 +3,7 @@ body{
     background-color: #264653;
     color: white;
     margin: 0;
+    transition: 0.5s ease-in-out;
 }
 
 .header{
