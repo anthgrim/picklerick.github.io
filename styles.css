@@ -35,3 +35,18 @@ body{
     width: 50%;
     padding: 10px;
 }
+
+.button{
+    height: 50px;
+    width: 150px;
+    border-radius: 35px;
+    border: none;
+    background-color: #184e77;
+    color: white;
+    transition: 0.5s ease-in-out;
+}
+
+.button:hover{
+    box-shadow: 1px 0px 4px 4px #f1faee;
+    transform: translateY(-10px);
+}
