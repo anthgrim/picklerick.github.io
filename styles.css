@@ -17,7 +17,7 @@ body{
     transition: 0.5s ease-in-out;
 }
 
-.header-image:hover{
+.header-image:active{
     transform: scale(1.1);
     box-shadow: 1px 0px 4px 5px #2a9d8f;
 }
@@ -46,7 +46,7 @@ body{
     transition: 0.5s ease-in-out;
 }
 
-.button:hover{
-    box-shadow: 1px 0px 4px 4px #f1faee;
+.button:active{
     transform: translateY(-10px);
+    box-shadow: 1px 0px 4px 4px #f1faee;
 }
