@@ -7,7 +7,7 @@ const delayedColorChange = (color, delay) => {
     })
 }
 
-for(let i = 5; i <= 5; i++){
+for(let i = 0; i <= 10; i++){
     delayedColorChange('#264653',1000)
         .then(()=> delayedColorChange('#2a9d8f',1000))
         .then(()=> delayedColorChange('#e9c46a',1000))
@@ -18,4 +18,4 @@ for(let i = 5; i <= 5; i++){
     i++;
 }
 
-delayedColorChange('#264653',1000)
+// delayedColorChange('#264653',1000)
