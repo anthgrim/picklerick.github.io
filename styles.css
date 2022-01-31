@@ -25,6 +25,7 @@ body{
 .main-content{
     margin: 25px;
     padding: 5px;
+    text-align: center;
 }
 
 .row{
@@ -53,3 +54,9 @@ body{
 .button:hover{
     box-shadow: 1px 0px 4px 4px #f1faee;
 }
+
+.url{
+    color: white;
+    text-decoration: underline white;
+}
+
