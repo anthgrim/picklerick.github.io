@@ -10,7 +10,7 @@ const delayedColorChange = (color, delay) => {
 const phraseButton = document.getElementById("phraseButton");
 
 const randomNumber = () => {
-    const number = Math.floor(Math.random() * 20);
+    const number = Math.floor(Math.random() * 30);
     return number;
 }
 
@@ -74,8 +74,38 @@ phraseButton.addEventListener('click',()=>{
         case 18:
             alert("“I’m sorry, but your opinion means very little to me.” — Rick");
             break;
-        case 19:
+        case 19: 
             alert("“B*tch, my generation gets traumatized for breakfast!” — Summer");
+            break;
+        case 20: 
+            alert("“I’ll tell you how I feel about school, Jerry: It’s a waste of time. Bunch of people runnin’ around bumpin’ into each other, got a guy up front says, ‘Two plus two,’ and the people in the back say, ‘Four.’ Then the bell rings and they give you a carton of milk and a piece of paper that says you can go take a dump or somethin’. I mean, it’s not a place for smart people, Jerry. I know that’s not a popular opinion, but that’s my two cents on the issue.” — Rick");
+            break;
+        case 21: 
+            alert("“Listen, Morty, I hate to break it to you, but what people call ‘love’ is just a chemical reaction that compels animals to breed.” — Rick");
+            break;
+        case 22: 
+            alert("“Ooh yeah, shame me. At least when I’m disgusting, it’s on purpose.” — Summer Smith");
+            break;
+        case 23: 
+            alert("“I realize now I’m attracted to you for the same reason I can’t be with you; you can’t change. And I have no problem with that, but it clearly means I have a problem with myself.” — Unity");
+            break;
+        case 24: 
+            alert("Mr. Nimbus: Say goodbye to your precious dry land! For soon it will be wet! - Rick: Yeah, global warming is already doing that. But sure, yeah, go for it. Make us slightly more wet.");
+            break;
+        case 25: 
+            alert("“You don’t get to tell anyone what’s sad. You’re like a one-man Mount Sadmore. So I guess like a Lincoln Sadmorial.” — Rick");
+            break;
+        case 26: 
+            alert("“Wait a minute! Is that Mountain Dew in my quantum-transport-solution?” — Rick");
+            break;
+        case 27: 
+            alert("“There’s a lesson here, and I’m not going to be the one to figure it out.” — Rick");
+            break;
+        case 28: 
+            alert("“Listen, Morty, I hate to break it to you, but what people call love is just a chemical reaction that compels animals to breed. It hits hard, Morty, then it slowly fades, leaving you stranded in a failing marriage. I did it. Your parents are gonna do it. Break the cycle, Morty. Rise above. Focus on science.” — Rick");
+            break;
+        case 29: 
+            alert("“Life is effort and I’ll stop when I die!” — Jerry");
             break;
         default:
             alert("“I’m a scientist; because I invent, transform, create, and destroy for a living, and when I don’t like something about the world, I change it.” — Pickle Rick");
