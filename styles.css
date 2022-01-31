@@ -18,8 +18,8 @@ body{
 }
 
 .header-image:hover{
+    box-shadow: 1px 0px 4px 4px #2A9D8F;
     transform: scale(1.1);
-    box-shadow: 1px 0px 4px 5px #2a9d8f;
 }
 
 .main-content{
