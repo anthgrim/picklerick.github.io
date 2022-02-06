@@ -1,11 +1,19 @@
-const delayedColorChange = (color, delay) => {
-    return new Promise((resolve, reject) => {
-        setTimeout(() => {
-            document.body.style.backgroundColor = color;
-            return resolve();
-        },delay);
-    })
-}
+// const body = document.getElementById("body-container")
+
+// const randomRGB = () => {
+//     const R = Math.floor(Math.random() * 255);
+//     const G = Math.floor(Math.random() * 255);
+//     const B = Math.floor(Math.random() * 255);
+//     const RGB = `rgb(${R},${G},${B})`;
+
+//     return RGB;
+// }
+
+// const randomizeColor = () => {
+//     body.style.backgroundColor = randomRGB();
+// }
+
+// setInterval(randomizeColor, 2000);
 
 const phraseButton = document.getElementById("phraseButton");
 
@@ -112,15 +120,3 @@ phraseButton.addEventListener('click',()=>{
             break;
     }
 })
-
-
-// for(let i = 0; i <= 10; i++){
-//     delayedColorChange('#264653',1000)
-        
-//         .then(()=> delayedColorChange('#e76f51',1000))
-//         .then(()=> delayedColorChange('#184e77',1000))
-//         .then(()=> delayedColorChange('#22223b',1000))
-//     i++;
-// }
-
-// delayedColorChange('#264653',1000)
