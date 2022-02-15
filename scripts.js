@@ -1,19 +1,15 @@
-// const body = document.getElementById("body-container")
+const colorChange = () => {
+    const r = Math.floor(Math.random() * 150);
+    const g = Math.floor(Math.random() * 150);
+    const b = Math.floor(Math.random() * 150);
 
-// const randomRGB = () => {
-//     const R = Math.floor(Math.random() * 255);
-//     const G = Math.floor(Math.random() * 255);
-//     const B = Math.floor(Math.random() * 255);
-//     const RGB = `rgb(${R},${G},${B})`;
+    document.body.style.backgroundColor = `rgb(${r},${g},${b})`;
 
-//     return RGB;
-// }
+}
 
-// const randomizeColor = () => {
-//     body.style.backgroundColor = randomRGB();
-// }
-
-// setInterval(randomizeColor, 2000);
+let idColorChange = setInterval(()=>{
+    colorChange();
+}, 1000)
 
 const phraseButton = document.getElementById("phraseButton");
 
@@ -23,6 +19,7 @@ const randomNumber = () => {
 }
 
 phraseButton.addEventListener('click',()=>{
+    clearInterval(idColorChange)
     const ranNumber = randomNumber();
     switch(ranNumber){
         case 0:
