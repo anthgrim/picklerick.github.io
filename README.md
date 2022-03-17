@@ -23,4 +23,6 @@ The random phrase is possible by calling the **randomNumber** function inside th
 A database will be created to store all this phrases, and possibly will evolved to get
 random quotes from different cartoons and series.
 
+Quote API connection
+
 ### Get your random phrase here: https://anthgrim.github.io/picklerick.github.io/Index.html
